@@ -1,4 +1,3 @@
-
 import { fireEvent, getByText, getByTestId, getByPlaceholderText, waitFor } from "@testing-library/dom";
 import "@testing-library/jest-dom/extend-expect";
 import { JSDOM } from "jsdom";

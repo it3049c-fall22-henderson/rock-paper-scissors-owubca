@@ -1,3 +1,4 @@
+
 const rewire = require(`rewire`);
 const RockPaperScissors = rewire(`../resources/scripts/rock_paper_scissors`).__get__(`RockPaperScissors`);
 const mathRandomSpy = jest.spyOn(Math, `random`);
